@@ -1,0 +1,132 @@
+[
+    {
+        "img": "assets/images/dashboard/courses/chart.png",
+        "percentage": "80%",
+        "achievements": [
+            {
+                "number": "12",
+                "img": "assets/images/dashboard/courses/medal.png",
+                "alt": "Medalla"
+            },
+            {
+                "number": "2",
+                "img": "assets/images/dashboard/courses/ribbon.png",
+                "alt": "Liston"
+            },
+            {
+                "number": "3",
+                "img": "assets/images/dashboard/courses/ribbon.png",
+                "alt": "Diamante"
+            },
+            {
+                "number": "15",
+                "img": "assets/images/dashboard/courses/fire.png",
+                "alt": "Fuego"
+            }
+        ]
+    },
+    {
+        "img": "assets/images/dashboard/courses/chart.png",
+        "percentage": "70%",
+        "achievements": [
+            {
+                "number": "12",
+                "img": "assets/images/dashboard/courses/medal.png",
+                "alt": "Medalla"
+            },
+            {
+                "number": "2",
+                "img": "assets/images/dashboard/courses/ribbon.png",
+                "alt": "Liston"
+            },
+            {
+                "number": "3",
+                "img": "assets/images/dashboard/courses/ribbon.png",
+                "alt": "Diamante"
+            },
+            {
+                "number": "15",
+                "img": "assets/images/dashboard/courses/fire.png",
+                "alt": "Fuego"
+            }
+        ]
+    },
+    {
+        "img": "assets/images/dashboard/courses/chart.png",
+        "percentage": "85%",
+        "achievements": [
+            {
+                "number": "12",
+                "img": "assets/images/dashboard/courses/medal.png",
+                "alt": "Medalla"
+            },
+            {
+                "number": "2",
+                "img": "assets/images/dashboard/courses/ribbon.png",
+                "alt": "Liston"
+            },
+            {
+                "number": "3",
+                "img": "assets/images/dashboard/courses/ribbon.png",
+                "alt": "Diamante"
+            },
+            {
+                "number": "15",
+                "img": "assets/images/dashboard/courses/fire.png",
+                "alt": "Fuego"
+            }
+        ]
+    },
+    {
+        "img": "assets/images/dashboard/courses/chart.png",
+        "percentage": "90%",
+        "achievements": [
+            {
+                "number": "12",
+                "img": "assets/images/dashboard/courses/medal.png",
+                "alt": "Medalla"
+            },
+            {
+                "number": "2",
+                "img": "assets/images/dashboard/courses/ribbon.png",
+                "alt": "Liston"
+            },
+            {
+                "number": "3",
+                "img": "assets/images/dashboard/courses/ribbon.png",
+                "alt": "Diamante"
+            },
+            {
+                "number": "15",
+                "img": "assets/images/dashboard/courses/fire.png",
+                "alt": "Fuego"
+            }
+        ]
+    },
+    {
+        "img": "assets/images/dashboard/courses/chart.png",
+        "percentage": "82%",
+        "achievements": [
+            {
+                "number": "12",
+                "img": "assets/images/dashboard/courses/medal.png",
+                "alt": "Medalla"
+            },
+            {
+                "number": "2",
+                "img": "assets/images/dashboard/courses/ribbon.png",
+                "alt": "Liston"
+            },
+            {
+                "number": "3",
+                "img": "assets/images/dashboard/courses/ribbon.png",
+                "alt": "Diamante"
+            },
+            {
+                "number": "15",
+                "img": "assets/images/dashboard/courses/fire.png",
+                "alt": "Fuego"
+            }
+        ]
+    }
+]

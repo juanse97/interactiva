@@ -1,0 +1,173 @@
+.content-login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: rgb(224, 195, 240);
+    background: linear-gradient(27deg, rgba(224, 195, 240, 1) 0%, rgba(142, 197, 252, 1) 100%);
+}
+
+.login {
+    grid-area: login;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content-logo {
+    margin-top: -16px;
+}
+
+.content-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.content-form h1 {
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.content-form {
+    margin-top: 30px;
+}
+
+.content-buttons-social {
+    margin-bottom: 20px;
+}
+
+.content-buttons-social button {
+    font-size: 12px;
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+
+.content-buttons-social button img {
+    margin: 5px;
+}
+
+.content-buttons-social button.google {
+    background: rgb(255, 75, 38);
+    background: linear-gradient(27deg, rgba(255, 75, 38, 1) 0%, rgba(217, 63, 33, 1) 100%);
+}
+
+.content-buttons-social button.facebook {
+    background: rgb(64, 133, 231);
+    background: linear-gradient(27deg, rgba(64, 133, 231, 1) 0%, rgba(75, 119, 182, 1) 100%);
+}
+
+.content-buttons-login {
+    margin-top: 50px;
+}
+
+.content-buttons-login button {
+    padding: 10px 30px;
+    text-transform: capitalize;
+    border-radius: 30px;
+}
+
+.content-buttons-login .log-in {
+    color: black;
+    background: rgb(245, 233, 75);
+    background: linear-gradient(27deg, rgba(245, 233, 75, 1) 0%, rgba(234, 192, 39, 1) 100%);
+}
+
+.content-buttons-login .sesion-create {
+    background: rgb(23, 91, 188);
+    background: linear-gradient(27deg, rgba(23, 91, 188, 1) 0%, rgba(66, 130, 221, 1) 100%);
+}
+
+.content-img {
+    grid-area: content-img;
+    height: 100%;
+}
+
+.content-principal {
+    display: grid;
+    grid-template-columns: 580px 320px;
+    grid-template-areas: "login content-img";
+    max-width: 900px;
+    max-height: 720px;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    border-radius: 24px;
+    background-color: white;
+}
+
+.forgot-password {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .css-19r6kue-MuiContainer-root.container {
+        padding: 0;
+    }
+
+    .content-principal {
+        grid-template-columns: 1fr;
+        grid-template-areas: "login""content-img";
+    }
+
+    .content-principal {
+        margin: 0;
+        margin-top: 71%;
+        width: 100%;
+    }
+
+    .content-login {
+        background-position-y: -130px;
+        background-image: url("/public/assets/images/login/profile.png");
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #f1b640;
+    }
+
+    .content-form h1 {
+        font-size: 20px;
+    }
+
+    .content-buttons-social button {
+        font-size: 10px;
+        padding: 10px 9px;
+    }
+
+    .content-buttons-social img {
+        width: 10px;
+        height: 10px;
+        margin: 3px !important;
+    }
+
+    .login {
+        align-items: center;
+        padding: 37px 20px;
+    }
+
+    .content-logo img {
+        width: 221px;
+        height: auto;
+    }
+
+    .content-buttons-login button {
+        font-size: 10px;
+    }
+
+    .content-img {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .content-principal {
+        grid-template-columns: 400px 320px;
+    }
+}

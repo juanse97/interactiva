@@ -1,0 +1,191 @@
+/* Nav */
+.title-course {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.board-container {
+    background-color: rgb(243, 243, 243);
+    height: 100%;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root.btn-invite-students {
+    border-radius: 10px;
+    background-color: #FFC542;
+    color: white;
+    text-transform: initial;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root.btn-invite-students:hover {
+    background-color: #fcba22;
+}
+
+.css-tbd9d2-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.select-order {
+    height: 32px !important;
+    padding-bottom: 0px;
+    padding-top: 4px;
+}
+
+.css-tbd9d2-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.select-order .MuiInputBase-input {
+    font-size: 12px;
+}
+
+.css-tbd9d2-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.select-order fieldset {
+    border: none;
+}
+
+.search-input input {
+    min-width: 300px;
+}
+
+/* Drawer */
+.container-drawer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.container-drawer>div {
+    height: 100%;
+}
+
+.content-user-information {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    background-color: #ECF4FF;
+    border-radius: 22px;
+    position: relative;
+    padding-bottom: 50px;
+    margin-top: 170px;
+}
+
+.user-image {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -134%);
+}
+
+.personal-information {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root.btn-personal-information {
+    background-color: #4A76B5;
+    color: white;
+    font-size: 12px;
+    text-transform: initial;
+    border-radius: 20px;
+    justify-content: left;
+    padding: 5px 15px;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root.btn-personal-information:hover {
+    background-color: #40669c;
+}
+
+.btn-personal-information svg {
+    width: 0.7em;
+    margin-right: 5px;
+}
+
+.logo-analdex {
+    grid-area: analdex;
+}
+
+.logo-interactiva {
+    grid-area: interactiva;
+}
+
+.btn-exit {
+    grid-area: exit;
+    display: inline-flex;
+    color: #707070;
+    text-decoration: none;
+}
+
+.btn-exit svg {
+    margin-right: 50px;
+}
+
+.footer-drawer {
+    display: grid;
+    grid-template-columns: 1fr 50%;
+    grid-template-areas:
+        "analdex interactiva"
+        "exit exit";
+    justify-items: center;
+    align-items: center;
+    row-gap: 120px;
+    margin-top: 80px;
+}
+
+/* Courses */
+.title-user-profile {
+    font-weight: 500;
+    color: #4A76B5;
+}
+
+.css-1990lj6-MuiGrid-root.grid-content-courses {
+    margin-top: -40px;
+}
+
+.css-1cfjp91-MuiGrid-root>.MuiGrid-item.content-courses {
+    padding-top: 0;
+}
+
+.card-header_img {
+    grid-area: card-header_img;
+}
+
+.card-header_title {
+    grid-area: card-header_title;
+}
+
+.card-header_percentage {
+    grid-area: card-header_percentage;
+}
+
+.card-header {
+    display: grid;
+    grid-template-areas: "card-header_img card-header_title""card-header_img card-header_percentage";
+}
+
+.css-46bh2p-MuiCardContent-root:last-child.card-content {
+    padding-bottom: 10px;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.achievement {
+    display: grid;
+    justify-items: center;
+    font-size: 10px;
+}
+
+.achievement .level {
+    color: #707070;
+}
+
+.MuiCard-root.card-calendar {
+    display: grid;
+    grid-template-columns: 60px auto;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.content-info-calendar {
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    margin-left: 10px;
+}
